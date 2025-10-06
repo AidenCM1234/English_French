@@ -15,6 +15,6 @@ if compare <= 0:
     print("(probably) French text")
 elif compare > 0:
     print("(probably) English text")
-print (compare)
+"""print (compare)
 print (f"t={t}")
-print (f"s={s}")
+print (f"s={s}")"""
