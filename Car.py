@@ -1,4 +1,3 @@
-
 def spaces(n,x,y):
     g=0
     print (n,x,y)
@@ -6,4 +5,4 @@ def spaces(n,x,y):
         if x[i] == "c" and y[i]== "c":
             g+=1
     print(g)
-spaces(5,"c..c.","cc.c.")
+spaces(5,"c..c.c","cc.c.")
