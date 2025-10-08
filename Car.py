@@ -1,8 +1,9 @@
-def spaces(x,y):
-    n=5
+
+def spaces(n,x,y):
     g=0
+    print (n,x,y)
     for i in range(n):
-        if x[i] == "c" and y[i] == "c":
-            x+=1
-    print(x)
-spaces("ccc..",".c.c.c")
+        if x[i] == "c" and y[i]== "c":
+            g+=1
+    print(g)
+spaces(5,"c..c.","cc.c.")
