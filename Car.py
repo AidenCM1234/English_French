@@ -4,5 +4,6 @@ def spaces(n,x,y):
     for i in range(n):
         if x[i] == "c" and y[i]== "c":
             g+=1
-    print(g)
+    return g
+print (g)
 spaces(5,"c..c.c","cc.c.")
